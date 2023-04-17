@@ -1,0 +1,197 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Dancing+Script&family=Poppins:wght@300;400;500&family=Roboto:ital,wght@0,300;0,400;1,300&display=swap");
+
+h1 {
+  font-family: "Anton", sans-serif;
+  text-align: center;
+}
+.content {
+  width: 90%;
+  height: 90vh;
+  margin-left: auto;
+  margin-right: auto;
+  border: 0.3px solid black;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.left-sidebar-ul {
+  list-style: none;
+  padding: 0;
+  margin: 2em;
+}
+
+.left-sidebar-ul li {
+  padding: 10px 30px;
+  border-bottom: 2px solid #ccc;
+}
+
+.left-sidebar-ul li:last-child {
+  border-bottom: none;
+}
+.left-sidebar-ul li:first-child{
+  border-top: none;
+}
+
+
+.left-sidebar {
+  border-right: 0.3px solid black;
+  width: 15%;
+  height: 100%;
+  background-color: rgb(112, 109, 109);
+}
+
+.left-sidebar-links {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.left-sidebar-links li {
+  flex: 1;
+  text-align: left;
+}
+
+.left-sidebar-links li:nth-child(n+5) {
+  text-align: right;
+  width: 10%;
+  height: 100%;
+  margin-bottom: 0.7em;
+}
+
+
+.middle-sidebar {
+  width: 70%;
+  height: 100%;
+  background-image: url("img/1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.right-sidebar {
+  border-left: 0.3px solid black;
+  width: 20%;
+  height: 100%;
+  background-color: rgb(112, 109, 109);
+}
+.left-sidebar ul li:hover a {
+  font-weight: bolder;
+}
+a {
+  text-decoration: none;
+  color: black;
+  font-family: "Roboto";
+}
+#header {
+  color: white;
+  font-size: 6rem;
+}
+a:hover {
+  cursor: pointer;
+}
+.left-sidebar ul {
+  height: 30%;
+  display: flex;
+  flex-direction: column;
+  gap: 15%;
+}
+ul li {
+  text-decoration: none;
+  list-style-type: none;
+}
+.map {
+  height: 30%;
+  background-image: url(img/rw.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.links {
+  height: 38%;
+}
+
+.left-sidebar-links {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10%;
+}
+.middle-div {
+  width: 80%;
+  height: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* modal */
+.modal {
+  height: 13%;
+  width: 23%;
+  border: 1px solid black;
+  position: absolute;
+  background-color: white;
+  top: 20%;
+  border-radius: 20%;
+}
+.buttons {
+  height: 80%;
+}
+.buttons button {
+  width: 20%;
+  height: 40%;
+  border-radius: 8%;
+  border: 0;
+}
+.hide {
+  display: none;
+}
+
+.home-nav{
+  color: white;
+  text-align: center;
+  font-size: large;
+}
+.buttons > button:hover{
+  cursor: pointer;
+}
+body{
+  font-family: sans-serif;
+  background-color: rgb(13, 78, 13);
+}
+.buttons > button:last-child {
+  background-color: rgb(28, 126, 245);
+}
+.buttons > button:first-child {
+  background-color: rgb(13, 78, 13);
+}
+
+a:hover{
+  text-decoration: underline;
+  
+}
+.footer{
+  width: 100%;
+  font-size: 0.7rem;
+  text-align: center;
+  line-height: 3px;
+}
+
+
+.social-icons {
+  display: block;
+  padding: 30px 40px;
+}
+.social-icons li {
+  display: inline-block;
+  margin-right: 20px;
+}
+.social-icons a {
+  font-size: 18px;
+  color: white;
+}
+.social-icons a:hover {
+  color:white;
+}
+.down{
+  color: white;
+}
